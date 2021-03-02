@@ -44,3 +44,11 @@ body {
 #projects:hover, #home:hover {
   text-decoration: underline
 }
+
+#bioHeader, .projectHeader {
+  border-bottom: solid;
+}
+
+.container {
+  margin-bottom: 5rem;
+}
