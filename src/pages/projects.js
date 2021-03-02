@@ -1,5 +1,6 @@
 import React from "react";
-import CountyElection from "../components/CountyElection.js";
+import CountyElection from "./components/CountyElection.js";
+// import CountyElection from "../components/CountyElection.js";
 import CodingHomepage from "../components/CodingHomepage.js";
 import ClickyGame from "../components/ClickyGame.js";
 import WeatherDashboard from "../components/WeatherDashboard.js";
