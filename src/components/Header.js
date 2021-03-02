@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Header () {
 
@@ -6,8 +7,8 @@ function Header () {
         <div className="jumbotron text-white bg-dark">
             <div className="row">
                 <div className="col-10">
-                    <h1 id="home">James Merges</h1>
-                    <h2 id="projects">Projects</h2>
+                    <h1 id="home"><Link to="/">James Merges</Link></h1>
+                    <h2 id="projects"><Link to="/projects">Projects</Link></h2>
                 </div>
                 <div className="col-2">
                     <h2><a href="https://github.com/jmerges">Github</a></h2>
