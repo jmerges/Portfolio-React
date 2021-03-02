@@ -1,10 +1,10 @@
 import React from "react";
-import CountyElection from "../components/CountyElection";
-import CodingHomepage from "../components/CodingHomepage";
-import ClickyGame from "../components/ClickyGame";
-import WeatherDashboard from "../components/WeatherDashboard";
-import CodeQuiz from "../components/CodeQuiz";
-import WorkoutTracker from "../components/WorkoutTracker";
+import CountyElection from "../components/CountyElection.js";
+import CodingHomepage from "../components/CodingHomepage.js";
+import ClickyGame from "../components/ClickyGame.js";
+import WeatherDashboard from "../components/WeatherDashboard.js";
+import CodeQuiz from "../components/CodeQuiz.js";
+import WorkoutTracker from "../components/WorkoutTracker.js";
 
 function Projects () {
     return (
