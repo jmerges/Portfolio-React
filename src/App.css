@@ -47,6 +47,7 @@ body {
 
 #bioHeader, .projectHeader {
   border-bottom: solid;
+  text-align: center;
 }
 
 .container {

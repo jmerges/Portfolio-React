@@ -1,12 +1,11 @@
 import React from "react";
 
-function countyElection () {
+function CountyElection () {
     return (
         <div className="container bg-dark">
-        <h1 className="projectHeader">County Presidential Results App</h1>
+        <h1 className="projectHeader"><a href="https://enigmatic-woodland-43956.herokuapp.com/">County Presidential Results App</a></h1>
         <div className="row">
             <div className="col-4">
-                <h4><a href="https://enigmatic-woodland-43956.herokuapp.com/">Deployed Site</a></h4>
                 <br />
                 <p>For this project, I worked with <a href="https://github.com/vincent-nguyen8931">Vincent Nguyen</a> and <a href="https://github.com/Jas-F">Jasmine Franklin</a> to create a county based election results app. This app features two graphs which are generated when the user types in a county and state, such as "Yolo, California". The first graph shows the presidential election results of the county from 2000-2016, and the second graph shows the demographic data from that county for the same years. My idea for the app was that by showing these data side by side in an easy to digest fashion, users can get a feel for how their county has shifted politically and demographically in the last twenty years and how those things might be related. The project was a blast.</p>
                 <br />
@@ -31,4 +30,4 @@ function countyElection () {
     )
 }
 
-export default countyElection;
+export default CountyElection;
