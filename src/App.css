@@ -53,3 +53,8 @@ body {
 .container {
   margin-bottom: 5rem;
 }
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+}
